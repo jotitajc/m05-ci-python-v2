@@ -30,6 +30,7 @@ class TestRestar:
     def test_resta_resultado_negativo(self):
         assert restar(3, 10) == -7
 
+
 # ── Tests de multiplicación ────────────────────────────────────
 class TestMultiplicar:
     def test_multiplicacion_simple(self):
@@ -40,6 +41,7 @@ class TestMultiplicar:
 
     def test_multiplicacion_negativos(self):
         assert multiplicar(-3, -4) == 12
+
 
 # ── Tests de división ──────────────────────────────────────────
 class TestDividir:
